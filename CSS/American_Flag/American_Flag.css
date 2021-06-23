@@ -1,0 +1,34 @@
+/* 
+-flag dimension 3x5
+-50 stars
+-5 rows of 6 stars
+-4 rows of 5 stars
+-13 stripes, 7 red and 5 white
+-bottom all stripes if 5
+-flag will be 1000 x 500
+ */
+ .stripes{
+     width: 1625;
+     height: 975;
+ }
+ .stripes div{
+     height: 75px;
+ }
+ .red {
+     background-color: red;
+ }
+ * {
+     margin: 0px;
+     padding: 0px;
+ }
+ .stars-container{
+     background-color: blue;
+     height: 525px;
+     position: fixed;
+     top:0px;
+     left:0px;
+ }
+ .stars{
+     color: white;
+     text-align: center;
+ }
