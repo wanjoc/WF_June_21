@@ -1,7 +1,7 @@
 .row{
-    background: white;
-    height: 80px;
-    margin: 0px auto;
+    /* background: white; */
+    /* height: 80px;
+    margin: 0px auto; */
     display: flex;
     flex-direction: row;
     /* justify-content: space-evenly; */
