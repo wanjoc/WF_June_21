@@ -1,13 +1,13 @@
 .container{
     background: rgb(230, 230, 230);
-    width: 500px;
-    height: 480px;
+    width: 1000px;
+    height: 900px;
     margin: 0px auto;
     border-top: solid black;
     display: flex;
     flex-direction: column;
     justify-content:space-around;
-    padding: 0px 10px;
+    align-items: center;
 }
 .title{
     text-align: center;
@@ -16,38 +16,39 @@
 }
 .top{
     background: lightskyblue;
-    width: 500px;
-    height: 120px;
+    width: 900px;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 .middle{
     background: rgb(247, 177, 188);
-    width: 500px;
-    height: 120px;
+    width: 900px;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 .bottom{
-    background: rgb(245, 245, 245);
-    width: 500px;
-    height: 120px;
+    background:white;
+    width: 900px;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin: 10px;
 }
-.content{
+/* .content{
     width: 100px;
     height: 100px; 
     background: white;
-}
-/* .content img.yogicat{
+} */
+.content img.images{
     height: 200px;
-}  */
+} 
 #text{
     color: lightslategray;
     text-align: center;
