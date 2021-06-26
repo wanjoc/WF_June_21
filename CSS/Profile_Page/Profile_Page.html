@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="Profile_Page.css">
+</head>
+<body>
+    <nav>
+        <ul class="nav-link-list">
+            <li class="nav-link" id="nav-title">Profile</li>
+            <li class="nav-link">Home</li>
+            <li class="nav-link" id="my-profile">My Profile</li>
+            <li class="nav-link">Find Connections</li>
+        </ul>
+        <ul class="searchSign">
+            <li><button id="btn">Sign Out</button></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+<!---------------------------------------------------------------- columnOne---------------------------------------------------------------------------------------------->
+        <div class="column-1">
+    <!-------------------------------------------------------------- user profile box ------------------------------------------------------------------------------------------>
+            <div class="user-profile">
+                <div class="top">
+                    <div class="circle">
+                        <div class="inner-circle">
+                            <img class="userpic"src="./icons/user-circle.png" alt="profile picture">
+                        </div>
+                        <!-- use combination of border, outline, box-shadow instead-->
+                    </div>
+                </div>
+                <div class="bottom">
+                    <p id="name">Jane Doe</p>
+                    <div class="city">
+                        <img class="mapmarker" src="./icons/map-marker.png" alt="map marker">
+                        <p>Seattle</p>
+                    </div>
+                    <div class="text">
+                        <p>Developer | Engineer | Problem Solver</p>
+                        <p>Master of shadows and the Internet!</p>
+                    </div>
+                    <div class="footer">
+                        <img class="gear"src="./icons/gear.png" alt="gear image>
+                        <a id="link" href="#">edit profile</a>
+                        <!-- change to anchor tag -->
+                    </div>
+                </div>
+                    
+            </div>
+    <!---------------------------------------------------------------- education box---------------------------------------------------------------------------------------------->
+            <div class="education">
+                <div class="education-1">Education</div>
+                <div class="text-1">
+                    <p>Coding Dojo - Full Stack Bootcamp</p>
+                    <p id="date">June 2021 - September 2021</p>
+                    <p id="languages">Triple black belt in Python, MERN, and C#</p>
+                </div>
+            </div>
+        </div>
+<!---------------------------------------------------------------- columnTwo---------------------------------------------------------------------------------------------->
+            <div class="column-2">
+    <!---------------------------------------------------------------- connections request box---------------------------------------------------------------------------------------------->
+                <div class="connection-requests">
+                    <div class="connection-requests-1">Connection Requests</div>
+                    <div class="text">
+                        <p>Todd E</p>
+                        <p>Phil K</p>
+                    </div>
+                </div>
+                <div class="your-connections">
+                    <div class="your-connections-1">Your Connections</div>
+                    <div class="text">
+                        <p>Adrien D</p>
+                        <p>Anne J</p>
+                        <p>Alayne T</p>
+                        <p>Arry Y</p>
+                    </div>
+                </div>
+            </div>  
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
