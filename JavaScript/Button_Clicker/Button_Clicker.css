@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+    background-color: silver;
+    width: 800px;
+    height: 50px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navLinkList{
+    text-indent: 15px;
+    font-size: 25pt;
+}
+.searchSign{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.navLinkList, .searchSign, li{
+    list-style-type: none;
+} 
+#search {
+    background: white;
+    color: silver;
+    width: 220px;
+    border: 3px solid black;
+    padding: 3px 2%;
+}
+#login button{
+    background-color: rgb(48, 121, 221);
+    width: 70px;
+    height: 30px;
+    font-size: 12pt;
+    color: white;
+    margin-right: 15px;
+    border: 3px solid black;
+    box-shadow: 2px 2px black;
+}
+
+.canvas{
+    background:white;
+    width: 800px;
+    height: 100vw;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.row{
+    display: flex;
+    gap: 35px;
+    
+}
+
+.ninja-1, .ninja-3{
+    background: white;
+    width: 500px;
+    height: 180px;
+    align-items: center;
+    padding: 2px 5px;
+    border: 3px solid black;
+}
+.word{
+    width: 50%;
+    margin-left: 10px;
+}
+.main-word{
+    font-size: 25pt;
+    margin-bottom: 5px;
+}
+
+.noun{
+    font-size: 15pt;
+    text-indent: 10px;
+    margin-bottom: 5px;
+}
+.likes{
+    background-color: rgb(254, 216, 111);
+    width: 80px;
+    height: 30px;
+    font-size: 12pt;
+    margin-top: 25px;
+    margin-right: 15px;
+    border: 3px solid black;
+    box-shadow: 2px 2px black;
+}
+.definition, .defined-by-you{
+    margin-right: 30px;
+    font-size: 15pt;
+    font-weight: 400;
+}
+.defined-by-you{
+    font-size: 20pt;
+    font-weight: 400;
+}
+
+.blue{
+    color:rgb(48, 121, 221);
+    text-decoration: underline;
+}
+.ninja-2{
+    background: white;
+    width: 230px;
+    height: 130px;
+    border: 3px solid black;
+    padding: 10px;
+}
+#add-definition{
+    background-color: rgb(147, 194, 127);
+    width: 210px;
+    height: 35px;
+    font-size: 12pt;
+    margin-top: 25px;
+    margin-right: 15px;
+    border: 3px solid black;
+    box-shadow: 2px 2px black;
+}
+
+
+footer {
+    background: silver;
+    width: 100vw;
+    height: 40px;
+    border: 1px solid black;
+}
