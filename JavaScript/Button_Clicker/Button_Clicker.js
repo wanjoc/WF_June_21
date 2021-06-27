@@ -1,5 +1,10 @@
 function logOut(element) {
-    element.innerText = "Logout"
+    if (element.innerText == "Logout"){
+        element.innerText = "Login";
+    }
+    else{
+        element.innerText = "Logout";
+    }
 }
 function hide(element){
     element.remove();
